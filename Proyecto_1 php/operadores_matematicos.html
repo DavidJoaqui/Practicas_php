@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operadores matematicos</title>
+</head>
+<style type="text/css">
+	.titulo{
+		font-size: 30px;
+		color:darkblue;
+		text-align: center;			
+	}
+</style>
+<body>
+<form action="calculadora.php" method="post" name="formulario_operaciones" id="formulario_operaciones">
+<table style="border:solid 3px darkblue;border-radius:10px">
+	
+	<thead>
+		<td colspan="3" class="titulo">
+		operadores matematicos 			
+		</td>
+	</thead>
+	<tr>
+	<td>
+		<label for="operador1"> Valor 1 </label>
+		<input type="text" name="numero1" id="operador1">
+	</td>
+	<td>
+	<label for="operador2">Valor 2</label>	
+	<input type="text" name="numero2" id="operador2">
+	</td>
+	<td>
+		<select name="operacion_select" id="operacion">
+			
+			<option>
+				Suma
+			</option>
+			
+
+			
+			<option>
+				Resta
+			</option>
+			
+
+			
+			<option>
+				Producto
+			</option>
+	
+
+			
+			<option>
+				Division
+			</option>
+			
+
+			
+			<option>
+				Modulo
+			</option>
+		
+
+		</select>
+	</td>	
+	</tr>
+
+	<tr>
+	<td colspan="3" align="center">
+		<input type="submit" name="btn-operar" value="Enviar" id="button" onclick="prueba">
+	</td>	
+	</tr>
+	
+</table>
+</form>
+
+
+
+
+</body>
+</html>
